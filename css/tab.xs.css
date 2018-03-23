@@ -1,0 +1,377 @@
+@media (min-width: 496px) and (max-width: 767px) {
+  body {
+    background-color: #ddd !important;
+  }
+  .section-1, .section-2, #sig-box, #execom, #repcom, #awards, #kagada-impetus, #impetus {
+    background-color: #fff !important;
+    padding: 1em;
+    border-radius: 4px;
+    box-shadow: 0px 7px 10px 0px #979899;
+  }
+  a {
+    transition: 250ms;
+  }
+  .back {
+    background-color: #2e2e2e;
+    padding: 50px 30px 25px 40px;
+  }
+  .logo {
+    max-width: 70px !important;
+    max-height: auto;
+  }
+  .title-ieee {
+    /*changed here*/
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 10px !important;
+    font-family: 'Kaushan Script', cursive;
+  }
+  .st {
+    /*changed here*/
+    float: right;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Shadows Into Light', cursive;
+  }
+  .paraGraph {
+    margin: -5px;
+  }
+  .zsignup {
+    /*changed here*/
+    background-color: #fff;
+    color: #2e2e2e;
+    font-size: 9px !important;
+    margin-top: -10px;
+    margin-right: -20px;
+  }
+  .zsignup:hover {
+    background-color: rgb(67, 158, 191);
+    transition-delay: 100ms;
+  }
+  .G {
+    color: #2e2e2e !important;
+  }
+  .lk {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+    padding-right: 30px !important;
+  }
+  .item1 {
+    display: flex;
+    justify-contents: left;
+    margin-left: 2em;
+  }
+  .item2 {
+    display: flex;
+    justify-contents: center;
+    font-family: Gsans-serif;
+  }
+  .item3 {
+    display: flex;
+    justify-contents: right;
+    margin-right: 2em;
+  }
+  .line-down {
+    border-bottom: 2px solid rgb(37, 115, 172);
+  }
+  .blue {
+    color: rgb(37, 115, 172);
+  }
+  .upper-section {
+    /*changed here*/
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 0.5em;
+  }
+  .navbar-right {
+    margin-right: 0.5em !important;
+  }
+  .align-1 {
+    /*changed here*/
+    text-align: left;
+    line-height: 1.5em;
+    padding-left: 0px;
+    font-size: 12px;
+  }
+  .align-2 {
+    /*changed here*/
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 11px;
+  }
+  ul.bullet {
+    list-style: none;
+  }
+  ul.bullet li:before {
+    content: '\00BB';
+    padding-right: 8px;
+    color: #000;
+  }
+  .sig {
+    /*changed here*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 100px;
+    grid-gap: 1em;
+  }
+  .img1 {
+    background-color: #94DEC5;
+  }
+  .img1:hover {
+    /*changed here*/
+    transform: scale(1.6);
+    transition-delay: 50ms;
+    transition-duration: 300ms;
+  }
+  .img2 {
+    background-color: #B564B3;
+  }
+  .img2:hover {
+    /*changed here*/
+    transform: scale(1.6);
+    transition-delay: 50ms;
+    transition-duration: 300ms;
+  }
+  .img3 {
+    background-color: #EBAC62;
+  }
+  .img3:hover {
+    /*changed here*/
+    transform: scale(1.6);
+    transition-delay: 50ms;
+    transition-duration: 300ms;
+  }
+  .img4 {
+    background-color: #DE5364;
+  }
+  .img4:hover {
+    /*changed here*/
+    transform: scale(1.6);
+    transition-delay: 50ms;
+    transition-duration: 300ms;
+  }
+  .img5 {
+    background-color: #8F82AB;
+  }
+  .img5:hover {
+    /*changed here*/
+    transform: scale(1.6);
+    transition-delay: 50ms;
+    transition-duration: 300ms;
+  }
+  .img6 {
+    background-color: #F3E595;
+  }
+  .img6:hover {
+    /*changed here*/
+    transform: scale(1.6);
+    transition-delay: 50ms;
+    transition-duration: 300ms;
+  }
+  .img7 {
+    background-color: #F4F3F4;
+  }
+  .img7:hover {
+    /*changed here*/
+    transform: scale(1.6);
+    transition-delay: 50ms;
+    transition-duration: 300ms;
+  }
+  .img8 {
+    background-color: #85A4BE;
+  }
+  .img8:hover {
+    /*changed here*/
+    transform: scale(1.6);
+    transition-delay: 50ms;
+    transition-duration: 300ms;
+  }
+  .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8 {
+    /*changed here*/
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px #797979;
+    padding-top: 30%;
+  }
+  .descrip {
+    /*changed here*/
+    font-size: 0.38em;
+    text-align: center;
+    display: none;
+    text-align: justify;
+    max-width: 210px;
+    margin-top: -45px;
+    margin-left: 5px;
+    padding: 20px;
+  }
+  .title {
+    /*changed here*/
+    font-family: cursive;
+    font-size: 18+px;
+    position: relative;
+    text-align: center;
+    margin-top: -10px;
+    font-family: 'Shadows Into Light', cursive;
+  }
+  .img1:hover .descrip {
+    display: block;
+    position: absolute;
+  }
+  /*tried to minimixe the whitespace here*/
+  .img1:hover .title {
+    display: none;
+  }
+  .img2:hover .descrip {
+    display: block;
+    position: absolute;
+  }
+  .img2:hover .title {
+    display: none;
+  }
+  .img3:hover .descrip {
+    display: block;
+    position: absolute;
+  }
+  .img3:hover .title {
+    display: none;
+  }
+  .img4:hover .descrip {
+    display: block;
+    position: absolute;
+  }
+  .img4:hover .title {
+    display: none;
+  }
+  .img5:hover .descrip {
+    display: block;
+    position: absolute;
+  }
+  .img5:hover .title {
+    display: none;
+  }
+  .img6:hover .descrip {
+    display: block;
+    position: absolute;
+  }
+  .img6:hover .title {
+    display: none;
+  }
+  .img7:hover .descrip {
+    display: block;
+    position: absolute;
+  }
+  .img7:hover .title {
+    display: none;
+  }
+  .img8:hover .descrip {
+    display: block;
+    position: absolute;
+  }
+  .img8:hover .title {
+    display: none;
+  }
+  .title-color {
+    background-color: #1c4469;
+    color: #fff;
+    padding: 0.3em;
+    text-align: center;
+    font-weight: 400;
+    font-family: monospace;
+    font-size: 18px;
+  }
+  /* Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  /* Targetting/overiding specific values   Note: Even and odd won't work*/
+  tr:nth-child(odd) {
+    background-color: rgba(217, 241, 245, 0.8);
+  }
+  tr:nth-child(even) {
+    background-color: rgba(217, 241, 245, 0.3);
+  }
+  /*Hover Effect*/
+  tr:nth-child(n):hover {
+    transition: 250ms;
+    background-color: #92d9db;
+  }
+  /*
+.mainbody > tr:nth-child(4), tr:nth-child(6), tr:nth-child(8){
+background-color: rgba(217, 241, 245, 0.8);
+}
+.mainbody > tr:nth-child(3), tr:nth-child(5), tr:nth-child(7), tr:nth-child(11){
+background-color: rgba(217, 241, 245, 0.3);
+}
+/*
+#sig tr:nth-child(2), tr:nth-child(5), tr:nth-child(10){
+background-color: rgba(217, 241, 245, 0.8);
+}
+#sig tr:nth-child(3){
+background-color: rgba(217, 241, 245, 0.3);
+}*/
+  td {
+    /*changed here*/
+    padding: 0.7rem !important;
+  }
+  td:nth-child(even) {
+    float: right;
+  }
+  /* Kagada */
+  .k1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .kag-imp {
+    max-width: 500px;
+    max-height: 300px;
+  }
+  .kag-imp-items {
+    /*changed here*/
+    font-family: helvetica, sans-serif;
+    list-style-type: square;
+    font-size: 12px;
+  }
+  /*Awards*/
+  .awards {
+    /*changed here*/
+    line-height: 2rem;
+    text-align: justify;
+    font-family: helvetica, sans-serif;
+    font-size: 12px;
+    padding: 13px;
+  }
+  /* Footer jumbotron  */
+  .icon {
+    /*changed here*/
+    font-size: 15px !important;
+  }
+  .icon:hover {
+    color: #256fb3;
+  }
+  .icon-arrange {
+    display: flex;
+    justify-content: space-around;
+  }
+  .pikachu {
+    /*changed here*/
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    font-family: sans-serif;
+    font-size: 15px !important;
+  }
+  .fa {
+    color: #fff;
+  }
+  #foot {
+    background-color: #1d1d1d !important;
+    padding: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+  }
+}
