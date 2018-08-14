@@ -10,9 +10,12 @@
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 </head>
 <style>
-    body {
-        background: url(images/codefury_back.png) no-repeat center;
-        background-size: cover;
+    @media (min-width: 600px){
+        body {
+            background: url(images/codefury_back.png) no-repeat center;
+            background-size: cover;
+            overflow: hidden;
+        }
     }
     .film{
         position: absolute;
@@ -36,7 +39,7 @@
     }
     div a{
         text-decoration: none;
-        margin-left: 45vw;;
+        margin-left: 45vw;
         text-align: center;
         font-size: 6rem;
         color: #fff;
@@ -49,6 +52,21 @@
     a:active{
         top: 2px;
     }
+    @media (max-width: 500px) {
+        h1{
+            font-size: 2rem;
+            letter-spacing: 0.18rem;
+            margin-top: 30vh;
+     }
+     div a{
+        margin-left: 38vw;
+        margin-top: 80vh;
+        font-size: 3.5rem;
+     }
+     body {
+         background: url(images/codefury_back_small.png);
+     }
+    }
 </style>
 <body>
     <div class="film"></div>
@@ -56,6 +74,7 @@
         <span>Codefury</span>
         <i class="fas fa-laptop-code"></i>
     </h1>
+    <br>
     <div>
         <a href="https://code-fury.herokuapp.com/">
             <i class="fas fa-arrow-alt-circle-right"></i>
