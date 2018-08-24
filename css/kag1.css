@@ -81,7 +81,10 @@ hr{
 }
 .home1 .left1 {
     color: white;
-    font-family: 'Garamond', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Cormorant Garamond',
+    Calibri,
+    'Trebuchet MS',
+    sans-serif;
     font-size: 7vh;
     margin: 4%;
     margin-top: -5%;
@@ -102,7 +105,7 @@ hr{
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2rem;
-    background: rgb(248, 83, 7);
+    background: rgb(255, 117, 37);
     opacity: 0.93;
     /* margin-top: -3%; */
     text-align: justify;
@@ -114,6 +117,49 @@ hr{
 
 }
 
+/* dates */
+
+/* where */
+
+.where h1 {
+    font-size: 12vh;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 8% auto -1%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dates {
+    font-family: 'Cormorant Garamond', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vh;
+    color: rgb(190, 220, 240);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 2%;
+    text-align: center;
+}
+.dates h3 {
+    margin: 1% auto;
+}
+
+div.sticky{
+    font-family: 'Cormorant Garamond',Calibri,'Trebuchet MS',sans-serif;
+    font-size: 6vh;
+    text-align: center;
+    color: rgb(252, 173, 128);
+    position: sticky;
+    margin: -2% -2%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    z-index: 10;
+}
+
+
 
 
 /* coming soon */
@@ -121,9 +167,9 @@ hr{
     box-shadow: white;
 }
 .comingsoon img{
-    margin: 3% 5%;
+    margin: 5% 5%;
     width: 90%;
-    opacity: 0.7;
+    opacity: 0.8;
 
 }
 .comingsoon img:hover{
@@ -132,6 +178,8 @@ hr{
     width:95%;
     transition-duration: 250ms;
 }
+
+
 
 
 /*2018*/
@@ -145,7 +193,7 @@ hr{
     align-content: center;
     color: black;
     font-size: 300%;
-    font-family: 'Garamond',Calibri,'Trebuchet MS', sans-serif;
+    font-family: 'Cormorant Garamond',Calibri,'Trebuchet MS',sans-serif;
     display: block;
     margin: 0%;
     padding: 2%;
@@ -172,12 +220,10 @@ hr{
 .home2 .cardhead{
     color: black;
     background-color: white;
-    font-family: 'Garamond',
-    Calibri,
-    'Trebuchet MS',
-    sans-serif;
+    font-family: 'Cormorant Garamond',Calibri,'Trebuchet MS',sans-serif;
+    font-weight: bolder;
     width: 250px;
-    height: 170px;
+    height: 190px;
     font-size: 28px;
     margin: 0%;
     align-content: center;
@@ -188,7 +234,10 @@ hr{
 .home2 .cardpart {
     color: black;
     background-color: rgba(0,0,0,1);
-    font-family: 'Garamond',Calibri,'Trebuchet MS',sans-serif;
+    font-family: 'Cormorant Garamond',
+    Calibri,
+    'Trebuchet MS',
+    sans-serif;
     font-size: 24px;
     margin: 0%;
     padding: 0.25% 2%;
@@ -264,29 +313,24 @@ hr{
     width: 180px;
     height: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: auto;
+    margin: 5% auto;
     padding: auto;
     border-radius: 15px;
     transition-duration: 300ms;
 }
-
-
 .downloadbro:hover{
     background-color: rgb(63, 62, 62);
     cursor: pointer;
     color: #fff;
 }
-/* a:active{
-    top:2px;
-} */
 
 
 
 
 /*topics*/
 .topicdiv {
-    background: rgb(248, 83, 7);
-    margin: 2% 5%;
+    background: rgb(255, 117, 37);
+    margin: 5% 5%;
     border-radius: 5px;
 }
 .topicdiv h1 {
@@ -294,7 +338,10 @@ hr{
     align-content: center;
     color: black;
     font-size: 300%;
-    font-family: 'Garamond',Calibri,'Trebuchet MS',sans-serif;
+    font-family: 'Cormorant Garamond',
+    Calibri,
+    'Trebuchet MS',
+    sans-serif;
     display: block;
     margin: 2% 2% 0% 2%;
     padding: 2%;
@@ -308,7 +355,10 @@ hr{
     align-content: center;
     color: white;
     font-size: 20px;
-    font-family: 'Garamond',Calibri,'Trebuchet MS',sans-serif;
+    font-family: 'Cormorant Garamond',
+    Calibri,
+    'Trebuchet MS',
+    sans-serif;
     display: block;
     margin: 0;
     padding: 2%;
@@ -321,6 +371,7 @@ hr{
     font-size: 150%;
     border: none;
     cursor: pointer;
+    
 }
 .dropbtn:hover, .dropbtn:focus {
     background-color: rgb(11, 40, 59);
@@ -339,7 +390,7 @@ hr{
     width: auto;
     text-align: center;
     justify-content: center;
-
+    
 }
 .dropdown-content p {
     color: black;
@@ -348,8 +399,6 @@ hr{
     text-decoration: none;
     display: block;
     font-size: 100%;
-
-
 }
 
 .dropdown-content p:hover {
@@ -362,7 +411,10 @@ hr{
 
 /* picture gallery */
 .galleryhead{
-    font-family: 'Garamond',Calibri,'Trebuchet MS',sans-serif;
+    font-family: 'Cormorant Garamond',
+    Calibri,
+    'Trebuchet MS',
+    sans-serif;
     text-align: center;
     color: black;
     align-content: center;
@@ -380,6 +432,7 @@ hr{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
 }
 .gallery img{
     border: 2px solid #fff;
@@ -389,7 +442,7 @@ div.gallery {
     margin: 1%;
     padding: 0% 4%;
     width: 60vh;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 div.gallery:hover {
@@ -426,9 +479,9 @@ div.gallery img {
     text-align: center;
     color: black;
     font-size: 300%;
-    font-family: 'Garamond',Calibri,'Trebuchet MS',sans-serif;
+    font-family: 'Cormorant Garamond',Calibri,'Trebuchet MS',sans-serif;
     display: block;
-    margin: 2% 2% 0% 2%;
+    margin: 2% 2% 2% 2%;
     padding: 1%;
     background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(260, 260, 260, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
     background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(260, 260, 260, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
@@ -436,6 +489,9 @@ div.gallery img {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
 
 }
+
+
+
 
 
 
@@ -449,7 +505,6 @@ div.gallery img {
     margin: 5% 2%;
 }
 .mapuvce{
-    box-shadow: azure;
     border-radius: 5px;
 }
 .contact .numbers{
@@ -458,11 +513,12 @@ div.gallery img {
     width: 400px;
     padding: 0.5% 2%;
     overflow: hidden;
-    font-family: 'Garamond',Calibri,'Trebuchet MS',sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     height: 408px;
     overflow: hidden;
     box-shadow: azure;
     border-radius: 5px;
+    font-size: 17px;
 }
 .contact h1{
     text-align: center;
@@ -477,10 +533,16 @@ div.gallery img {
 
 /*foot*/
 .footer{
-    height: 20px;
+    
     margin: 1% 0 0 0;
-    background-color: rgb(248, 83, 7);
+    background-color: rgb(255, 117, 37);
     display: block;
-
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
-
+.footer p{
+    padding: 1%;
+    font-size: 4vh;
+    font-weight: bolder;
+}

@@ -1,0 +1,86 @@
+
+@media (max-width:495px) {
+    
+    body {
+        background-color: black;
+        overflow-x: hidden !important;
+        margin-right: -30vh;
+    }
+    .navtop div{
+        font-size: 1.rem!important;
+        padding: 0.7rem 2rem;
+    }
+    .ieee_logo {
+        border-radius: 50%;
+        max-width: 50px;
+        top:9%;
+        right: -40%;
+
+    }
+    .kagadahead h3{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+    .home1 .left1 {
+        /* color: white; */
+        /* font-family: 'Garamond', Calibri, 'Trebuchet MS', sans-serif; */
+        margin-top: -15%;
+        margin-bottom: 25%;
+        max-height: 250px;
+        padding-left:28px;
+        text-align: center;
+        align-content: center;
+        justify-content: space-evenly;
+    }
+    .dates {
+        font-size: 8vw;       
+    }
+    .dates h3{
+        margin: 4.5%;
+    }
+    .dates h2{
+        margin: 6%;
+    }
+    div.sticky h2{
+        padding: 2%;
+    }
+    .comingsoon img {
+        margin: 10% 1%;
+        width: 98%;
+    }
+    .downloadbro {
+        font-size: 20px;
+        padding: 3%;
+        width: 80vw;
+        margin: 15% auto;
+    }
+    .downloadbro:hover {
+        background-color: rgb(63, 62, 62);
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .topicdiv {
+        background: rgb(248, 83, 7);
+        margin: 15% 5%;
+        border-radius: 5px;
+    }
+
+    .topicdiv h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .gallery1 {
+
+        margin-left: -15%;
+    }
+    .where h1 {
+        font-size: 15vh;
+        margin: 15% auto 2%;
+        
+    }
+    .contact .numbers {
+        margin: 10%;
+        font-family: 'Times New Roman',Times,serif;
+        
+    }
+}
