@@ -247,7 +247,7 @@ div.sticky{
 
 }
 .cardimg1{
-    background-image: url(../img/back/ug.JPG);
+    background-image: url(../img/back/ug1.JPG);
     background-position: center;
     background-repeat: no-repeat;
     /* Do not repeat the image */
@@ -258,7 +258,7 @@ div.sticky{
 
 }
 .cardimg2 {
-    background-image: url(../img/back/pg.JPG);
+    background-image: url(../img/back/pg1.JPG);
     background-position: center;
     background-repeat: no-repeat;
     /* Do not repeat the image */
@@ -371,7 +371,7 @@ div.sticky{
     font-size: 150%;
     border: none;
     cursor: pointer;
-    
+
 }
 .dropbtn:hover, .dropbtn:focus {
     background-color: rgb(11, 40, 59);
@@ -390,7 +390,7 @@ div.sticky{
     width: auto;
     text-align: center;
     justify-content: center;
-    
+
 }
 .dropdown-content p {
     color: black;
@@ -533,7 +533,7 @@ div.gallery img {
 
 /*foot*/
 .footer{
-    
+
     margin: 1% 0 0 0;
     background-color: rgb(255, 117, 37);
     display: block;
